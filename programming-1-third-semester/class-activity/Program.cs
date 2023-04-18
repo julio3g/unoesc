@@ -71,7 +71,7 @@ for(int i = 0; i < people.Length; i++)
    Console.WriteLine($"Pessoa {i + 1}:");
    Console.WriteLine($"Name: {people[i].Name}" + $" / Office: {people[i].Office}");
 
-   Console.WriteLine($"Data de BirthDate: {people[i].BirthDate.ToShortDateString()}");
+   Console.WriteLine($"Data de nascimento: {people[i].BirthDate.ToShortDateString()}");
    Console.WriteLine($"Data de contratação: {people[i].Contract.ToShortDateString()}");
    Console.WriteLine($"Gênero: {people[i].Gender}");
    Console.WriteLine($"Sector: {people[i].Sector}");
